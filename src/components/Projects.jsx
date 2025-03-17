@@ -119,7 +119,7 @@ const projects = [
   {
     title: 'TaskMaster',
     description: 'A task management application with client-side filtering, dynamic theming, and asynchronous data handling.',
-    image: '/src/components/2310700.png',
+    image: '/images/2310700.png',
     technologies: ['MERN Stack', 'JavaScript', 'HTML', 'CSS', 'Tailwind CSS', 'Axios'],
     github: 'https://github.com/ayoposiolubamisaye/taskmaster',
     demo: null,
@@ -127,7 +127,7 @@ const projects = [
   {
     title: 'Custom Shell',
     description: 'A POSIX-compliant shell implementation with advanced features like command pipelines and signal handling.',
-    image: '/src/components/png-transparent-computer-terminal-linux-console-computer-icons-command-line-interface-linux-commandline-interface-linux-ssh-thumbnail.png',
+    image: '/images/terminal.png',
     technologies: ['C', 'GNU Readline Library', 'POSIX'],
     github: 'https://github.com/ayoposiolubamisaye/custom-shell',
     demo: null,
