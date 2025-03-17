@@ -1,7 +1,7 @@
 import { Global } from '@emotion/react';
 import { ThemeProvider } from '@emotion/react';
 import GlobalStyles from './styles/GlobalStyles';
-import theme from './theme';
+import { theme } from './theme';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
