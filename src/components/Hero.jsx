@@ -2,6 +2,7 @@ import styled from '@emotion/styled';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
+import profilePic from './picture.jpg';
 
 const HeroSection = styled.section`
   min-height: 100vh;
@@ -99,7 +100,7 @@ const Hero = () => {
           animate={inView ? { opacity: 1, scale: 1 } : {}}
           transition={{ duration: 0.6 }}
         >
-          <img src="/src/components/picture.jpg" alt="Ayoposi Olu-Bamisaye" />
+          <img src={profilePic} alt="Ayoposi Olu-Bamisaye" />
         </ProfileImage>
         <Title
           initial={{ opacity: 0, y: 20 }}
